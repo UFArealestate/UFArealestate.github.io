@@ -1,0 +1,56 @@
+body {
+    background-color: rgb(240, 240, 243);
+}
+header {padding: 30px;
+   background-color: rgb(249, 244, 244);
+   background-image: url(imges/lake.jpeg);
+   background-size: 100%;
+   background-position: center;
+   padding: 20px;
+   height: 300px;
+   text-align: center;
+
+}
+ header a {
+    background-color: rgb(241, 239, 235);
+text-decoration: none;
+text-transform: uppercase;
+margin-top: 40px;
+}
+
+
+section {
+    background-color: rgb(229, 218, 218);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+}
+ul {
+    margin: 0;
+    padding:   0;
+    list-style: none;          
+}
+li{
+    display: inline-block;
+    margin: 20px;
+}
+div {
+    background-color: rgb(146, 113, 113);
+    margin: auto;
+    width: 100px; 
+}
+footer {
+    background-color: rgb(244, 243, 243);
+    padding: 10px 20px;
+}
+header .UFAlogo a {
+background-image: url("images/logo1.jpg");
+background-size: 150px;
+background-repeat: no-repeat;
+display: inline-block;
+height: 150px;
+text-indent: -99999999px;
+position: relative;
+top: -30px;
+width: 150px;
+}
